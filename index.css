@@ -1,0 +1,36 @@
+#clockContainer{
+    background-color: bisque;
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(romanC.gif) no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 2%;
+    height: 20%;
+    top: 29.5%;
+    left: 49%;
+}
+#minute{
+    width: 1.5%;
+    height: 30%;
+    top: 19.5%;
+    left: 49.5%;
+    
+}
+#second{
+    width: 1%;
+    height: 40%;
+    top: 9.5%;
+    left: 49.5%;
+}
